@@ -7,7 +7,7 @@ import os
 input_dir="out_fi_etc"
 output_dir="print_fi_etc"
 
-rank=200
+rank=10
 rank_s=1
 except_inds=[]
 
@@ -66,8 +66,8 @@ for file in files:
 
 	f.close()
 
-###	inds=[precen_all[i]['ind'] for i in range(rank_s,rank+1)]
-	inds=[]
+	inds=[precen_all[i]['ind'] for i in range(rank_s,rank+1)]
+###	inds=[]
 
 	inds2=[last_all[i]['ind'] for i in range(rank_s,rank+1)]
 	print filepart[0], len(set(inds2)),

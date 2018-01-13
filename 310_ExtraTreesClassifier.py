@@ -18,7 +18,7 @@ output_dir="out_fi_etc"
 target_country=["USA","JPN","DEU","RUS","BRA","GBR","FRA","ITA","MEX","TUR"]
 except_inds=["TAXREV(TOT/USD_CAP)","TAXINCOME(TOT/PC_GDP)","TAXCORP(TOT/PC_GDP)","TAXSS(TOT/PC_GDP)","TAXPAYROLL(TOT/PC_GDP)","TAXPROPERTY(TOT/PC_GDP)","TAXGOODSERV(TOT/PC_GDP)","GNI(TOT/USD_CAP)","NNI(TOT/MLN_USD)"]
 
-start_year=1980
+start_year=1975
 loop=1000	# to prevent infinite loop
 
 l=0
